@@ -80,35 +80,6 @@ Amazon-Clone-ReactJS/
 ├── package.json
 └── README.md
 ```
-
-## 🚀 Deployment
-
-### Deploy to Netlify
-1. Build the project: `npm run build`
-2. Drag and drop the `build` folder to [Netlify](https://netlify.com)
-
-### Deploy to Vercel
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run: `vercel --prod`
-
-## 🤝 Contributing
-
-1. Fork the project
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'Add amazing feature'`
-4. Push to the branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
-
 ## 🙏 Acknowledgments
 
 - Amazon for design inspiration
