@@ -21,12 +21,13 @@ function Header() {
             </div>
 
             <div className="header-nav">
-                <div className=" header-option-main">
-                    <span className="header-option-one">Hello, Guest</span>
-                    <span className="header-option-two">Sign In</span>
-                </div>
 
-                <div className="header-option">
+                <Link to="/login" style={{ textDecoration: "none", color: "inherit" }}>
+                  <div className=" header-option-main">
+                      <span className="header-option-one">Hello, Guest</span>
+                      <span className="header-option-two">Sign In</span>
+                  </div>
+                </Link>                <div className="header-option">
                     <span className="header-option-one">Returns</span>
                     <span className="header-option-two">& Orders</span>
                 </div>

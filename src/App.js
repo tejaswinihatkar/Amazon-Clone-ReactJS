@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Checkout from "./components/Checkout";
+import SimpleLogin from "./components/SimpleLogin";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
         <Header />
 
         <Switch>
+          <Route path="/login">
+            <SimpleLogin />
+          </Route>
 
           <Route path="/checkout">
             <Checkout />
@@ -20,7 +24,6 @@ function App() {
           <Route path="/">
             <Home />
           </Route>
-
         </Switch>
 
         <Footer />
@@ -30,3 +33,5 @@ function App() {
 }
 
 export default App;
+
+
